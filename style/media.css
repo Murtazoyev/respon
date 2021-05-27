@@ -1,0 +1,89 @@
+@media (min-width: 0) and (max-width: 446.9px){
+ .container{
+  width: 90%;
+ }
+ .container .col{
+  width: 100%;
+ }
+}
+
+@media (min-width: 447px) and (max-width: 768.9px){
+ .container{
+  width: 90%;
+ }
+ .container .col{
+  width: 45%;
+  background-color: chartreuse;
+ }
+}
+@media (min-width: 769px) and (max-width: 989.9px){
+ .container{
+  width: 90%;
+ }
+ .container .col{
+  width: 28%;
+  background-color: fuchsia;
+ }
+ .col:last-child{
+  display: none;
+ }
+ .col:nth-child(7){
+  display: none;
+ }
+}
+
+
+@media (min-width: 769px) and (max-width: 989.9px){
+ .navItem{
+  display: none;
+ }
+} 
+@media (min-width: 447px) and (max-width: 768.9px){
+ nav a{
+  text-decoration: none;
+  width:90%;
+ }
+ nav{
+  font-size: 20px;
+  margin-left: 10%;
+  width: 90%;
+  position: relative;
+ }
+ nav ul li{
+  margin-top: 10%;
+  width: 100%;
+ }
+ nav ul {
+  flex-direction: column;
+  width: 40%;
+  position: absolute;
+  right: 0;
+ }
+}
+
+@media (min-width: 0) and (max-width: 446.9px){
+ nav a{
+  text-decoration: none;
+  width:90%;
+ }
+ nav{
+  font-size: 20px;
+  margin-left: 10%;
+  width: 90%;
+  position: relative;
+ }
+ nav ul li{
+  margin-top: 10%;
+  width: 100%;
+ }
+ nav ul {
+  display: none;
+  flex-direction: column;
+  width: 30%;
+  position: absolute;
+  right: 0;
+ }
+ .navItem:hover + ul{
+  display: block;
+ }
+}
